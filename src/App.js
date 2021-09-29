@@ -142,7 +142,9 @@ export default function App() {
               <div style={{ fontSize: "larger" }}> Name : {book.name} </div>
               <div style={{ fontSize: "smaller" }}>
                 {" "}
-                Rating : {book.rating}{" "}
+                Rating : {book.rating} <br />
+                Author : {book.author}
+                {""}
               </div>
             </li>
           ))}
